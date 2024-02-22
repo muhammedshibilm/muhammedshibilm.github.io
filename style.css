@@ -6,8 +6,34 @@
     
 }
 
-#image{
-    background-image: url(shibilprofile.jpg);
+
+@media (max-width: 576px){
+    .text-white{
+        margin-top: 50px;
+    }
+    #about{
+        margin-top: 30px;
+    }
+    #smremove{
+      display: none;
+    }
+}
+
+#exp{
+    background-image: image-set('istockphoto-1288385045-612x612.jpg');
     background-repeat: no-repeat;
-   
+    background-size: cover;
+    
+    
+}
+
+.card > img{
+  width: 100px;
+  height: 100px;
+}
+.card{
+   background-color: grey;
+}
+.card:hover{
+  background-color: darkgoldenrod;
 }
