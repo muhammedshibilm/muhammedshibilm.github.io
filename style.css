@@ -19,6 +19,12 @@
     }
 }
 
+@media (max-width: 756px){
+  #smremove{
+    display: none;
+  }
+}
+
 #exp{
     background-image: image-set('istockphoto-1288385045-612x612.jpg');
     background-repeat: no-repeat;
