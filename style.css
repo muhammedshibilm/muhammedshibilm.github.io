@@ -14,13 +14,11 @@
     #about{
         margin-top: 30px;
     }
-    #smremove{
-      display: none;
-    }
+    
 }
 
-@media (max-width: 756px){
-  #smremove{
+@media (max-width: 768px){
+  #mdremove{
     display: none;
   }
 }
