@@ -17,10 +17,14 @@
     
 }
 
-@media (max-width: 768px){
+/* @media (max-width: 768px){
   #mdremove{
     display: none;
   }
+} */
+
+#mdremove{
+  display: none;
 }
 
 #exp{
