@@ -43,3 +43,28 @@
 .card:hover{
   background-color: darkgoldenrod;
 }
+
+
+.timeline-item {
+  display: flex;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+
+.timeline-content {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-left: 20px;
+  flex-grow: 1;
+}
+
+.timeline h2 {
+  color: #333;
+}
+
+.timeline p {
+  color: #666;
+}
