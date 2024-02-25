@@ -17,11 +17,9 @@
     
 }
 
-/* @media (max-width: 768px){
-  #mdremove{
-    display: none;
-  }
-} */
+.nav-item:hover{
+  color: #FFC107;
+}
 
 #mdremove{
   display: none;
