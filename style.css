@@ -69,4 +69,9 @@
   color: #666;
 }
 
-
+#reference{
+  transition: background-color 0.3s ease;
+}
+#reference:hover{
+  color: #FFC107;
+}
