@@ -54,20 +54,17 @@ body{
 
 
 .timeline-content {
-  background-color: #fff;
-  border: 1px solid #ccc;
   border-radius: 5px;
-  padding: 20px;
   margin-left: 20px;
   flex-grow: 1;
 }
 
 .timeline h2 {
-  color: #333;
+  color: white;
 }
 
 .timeline p {
-  color: #666;
+  color: whitesmoke;
 }
 
 #reference{
