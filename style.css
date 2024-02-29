@@ -39,10 +39,12 @@ body{
   height: 100px;
 }
 .card{
-   background-color: grey;
+   background-color: rgba(37, 37, 37, 0.952);
+   color: white;
 }
 .card:hover{
   background-color: darkgoldenrod;
+  color: black;
 }
 
 
