@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: whitesmoke;  
+    color: whitesmoke; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    scroll-behavior: smooth;
 }
 body{
     scroll-behavior: smooth;
@@ -43,8 +45,10 @@ body{
    color: white;
 }
 .card:hover{
-  background-color: darkgoldenrod;
-  color: black;
+  box-shadow: 1px 1px 5px darkgoldenrod;
+  transform: scale(1.1);  
+
+
 }
 
 
